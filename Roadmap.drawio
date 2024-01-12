@@ -1,182 +1,152 @@
 <mxfile host="65bd71144e">
     <diagram id="du3HDHXmK6elPqAYcbAU" name="Page-1">
-        <mxGraphModel dx="2071" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1339" dy="1525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Change voice AI" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="660" y="220" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="4" value="&lt;div style=&quot;text-align: start;&quot;&gt;Speech meaning&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="470" y="460" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="9">
+                <mxCell id="92" style="edgeStyle=none;html=1;" parent="1" source="85" target="87" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Dữ liệu huấn luyện" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="50" y="160" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="12" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="11">
+                <mxCell id="94" style="edgeStyle=none;html=1;" parent="1" source="85" target="86" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="AI-Hobbyist" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="75" y="80" width="70" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="11" value="Genshin Impact" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="80" width="60" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="17" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15" target="16">
+                <mxCell id="97" style="edgeStyle=none;html=1;" parent="1" source="85" target="96" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15" target="25">
+                <mxCell id="85" value="Mô hình sao chép giọng nói" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" style="edgeStyle=none;html=1;" parent="1" source="86" target="100" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="Thuật toán&lt;br&gt;huấn luyện" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="120" y="400" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="19" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="16" target="18">
+                <mxCell id="114" style="edgeStyle=none;html=1;" parent="1" source="86" target="103" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="16" target="20">
+                <mxCell id="86" value="Biết được các thông tin cơ bản của giọng nói" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" style="edgeStyle=none;html=1;" parent="1" source="87" target="89" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="Tham khảo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="146.88" y="310" width="66.25" height="50" as="geometry"/>
+                <mxCell id="87" value="Sử dụng GAN để huấn luyện" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="180" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="RVC" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="250" y="250" width="61.25" height="60" as="geometry"/>
+                <mxCell id="89" value="Từ dữ liệu giọng nói muốn fake, thực hiện thay đổi để đem ra so sánh với kiểu dữ liệu gốc" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="535" y="60" width="150" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="so-vits-svc" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="250" width="60" height="60" as="geometry"/>
+                <mxCell id="96" value="Sẽ không có xóa ồn và mặc định âm thanh sạch" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="420" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="25" target="27">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="180.65" y="772" as="sourcePoint"/>
-                    </mxGeometry>
+                <mxCell id="98" value="Sự thay đổi tuyến tính trong mô hình giọng nói" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="450" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="25" target="72">
+                <mxCell id="102" style="edgeStyle=none;html=1;" parent="1" source="100" target="98" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="Thuật toán&lt;br&gt;mong muốn" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="120" y="590" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="40" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27" target="39">
+                <mxCell id="122" style="edgeStyle=none;html=1;" parent="1" source="100" target="121" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27" target="41">
+                <mxCell id="128" style="edgeStyle=none;html=1;" parent="1" source="100" target="116" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27" target="48">
+                <mxCell id="100" value="Học có&lt;br&gt;giám sát" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="440" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" style="edgeStyle=none;html=1;" parent="1" source="103" target="104" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27" target="43">
+                <mxCell id="103" value="Tạo sinh" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="170" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="" style="edgeStyle=none;html=1;" parent="1" source="104" target="105" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27" target="44">
+                <mxCell id="104" value="Từ dữ liệu câu nói có sẵn&lt;br&gt;Kết hợp với giọng nói và tính cách" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="60" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="Thực hiện huấn luyện GAN nhưng ở cấp độ hoàn toàn mới" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="-80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="Tốc độ nói" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="77.5" y="-210" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="Cao độ nói" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="157.5" y="-270" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="Sự thay đổi tuyến tính của tần số" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="237.5" y="-270" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="Chỉnh sửa độ vang trong giọng nói" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="317.5" y="-210" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="Cách nhấn âm&lt;br&gt;Cách nói từ ghép" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="27.5" y="-130" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="Sự thay đổi tuyến tính của cao độ" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="372.5" y="-130" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" style="edgeStyle=none;html=1;" parent="1" source="116" target="118" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27" target="47">
+                <mxCell id="116" value="Trích xuất những đặc trưng quan trọng nhất của giọng gốc" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry y="450" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" style="edgeStyle=none;html=1;" parent="1" source="117" target="119" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27" target="45">
+                <mxCell id="117" value="Giọng nói khi ở mức tần số cơ bản" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-440" y="560" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" style="edgeStyle=none;html=1;" parent="1" source="118" target="127" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="59" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27" target="46">
+                <mxCell id="140" style="edgeStyle=none;html=1;" parent="1" source="118" target="139" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="Đưa ra được&lt;br&gt;thông tin cơ bản&lt;br&gt;về giọng nói từ&lt;br&gt;bộ dữ liệu train" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="120.64999999999999" y="857" width="120" height="60" as="geometry"/>
+                <mxCell id="118" value="Cơ bản" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-120" y="560" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="39" target="52">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="29.52954916823696" y="774.5550147021431" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="119" value="Nếu chỉ sử dụng thông tin này&lt;br&gt;THÌ SAO???" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-640" y="570" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" value="Tần số&lt;br&gt;cơ bản" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="40.65" y="797" width="80" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="41" value="Cường độ&lt;br&gt;âm thanh" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="40.65" y="957" width="80" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="61" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="43" target="60">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-73.00485417772197" y="943.1053698399105" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="43" value="Độ biến đổi&lt;br&gt;cường độ" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="-32.35" y="907" width="80" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="44" value="Tốc độ nói" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="220.65" y="962" width="80" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="63" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="45" target="62">
+                <mxCell id="126" style="edgeStyle=none;html=1;" parent="1" source="120" target="125" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" style="edgeStyle=none;html=1;" edge="1" parent="1" source="45" target="70">
+                <mxCell id="120" value="Những đặc trưng giọng nói không thể sử dụng" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="570" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="Mục tiêu học ở đây là cố gắng lồng đặc trưng giọng nói của một người vào, nên sẽ có một vài thông số đặc biệt không thể bị thay đổi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="520" width="120" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="Phải cực kỳ chú ý đến căn chỉnh độ vang của âm thanh" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FF6666;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="290" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="Tốc độ giọng nói" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="680" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" style="edgeStyle=none;html=1;" parent="1" source="127" target="133" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="Dải tần số" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="300.65" y="843" width="70" height="40" as="geometry"/>
+                <mxCell id="127" value="Khả năng chuyển âm giữa các từ" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-280" y="680" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" style="edgeStyle=none;html=1;" edge="1" parent="1" source="46" target="66">
+                <mxCell id="133" value="Khả năng cao cần phải có một đoạn code riêng xử lý vang" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-300" y="800" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="Cần visualize được cách phát âm các từ cơ bản" style="whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-120" y="220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="Nâng cao" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-120" y="360" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="khả năng chuyển âm giữa các âm tiết" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-120" y="680" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" style="edgeStyle=none;html=1;" parent="1" source="139" target="117" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="Độ trì hoãn" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="220.65" y="797" width="80" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="69" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="47" target="68">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="47" value="Tần số Mel" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#BF0000;strokeColor=#A1BEF0;" vertex="1" parent="1">
-                    <mxGeometry x="295.65" y="897" width="80" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="48" value="Độ cao&lt;br&gt;giọng nói" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="-32.35" y="843" width="80" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="52" value="Xác định nam, nữ, đặc điểm cá nhân" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="-49.35" y="680" width="90" height="55" as="geometry"/>
-                </mxCell>
-                <mxCell id="60" value="phản ánh &lt;br&gt;biểu cảm,&lt;br&gt;tâm trạng" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="-120" y="924.5" width="67" height="65" as="geometry"/>
-                </mxCell>
-                <mxCell id="62" value="ảnh hưởng chất lượng, đđ nhận diện ng nói" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="420.65" y="830" width="105" height="66" as="geometry"/>
-                </mxCell>
-                <mxCell id="66" value="ảnh hưởng nhịp, nhấn" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="320.65" y="730" width="80" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="68" value="b/đồ t/số&lt;br&gt;dựa trên cảm giác ng nghe" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#A1BEF0;" vertex="1" parent="1">
-                    <mxGeometry x="423.15" y="909.5" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="70" value="ít thay đổi" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#A1BEF0;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="400.65" y="780" width="60" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="75" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="72" target="74">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="78" style="edgeStyle=none;html=1;" edge="1" parent="1" source="72" target="77">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="72" value="Biết tâm trạng&lt;br&gt;người nói" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="320" y="590" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="83" style="edgeStyle=none;html=1;" edge="1" parent="1" source="74" target="81">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="74" value="Căn cứ vào&lt;br&gt;ý nghĩa câu" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="520" y="580" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="85" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="77" target="84">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="77" value="Căn cứ vào&lt;br&gt;thông tin cơ bản&lt;br&gt;giọng nói" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#A1BEF0;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="450" y="667.5" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="81" value="Ảnh hưởng &lt;br&gt;tới&lt;br&gt;tốc độ" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#A1BEF0;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="660" y="590" width="90" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="84" value="Nhanh&lt;br&gt;đơn giản" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;strokeColor=#A1BEF0;" vertex="1" parent="1">
-                    <mxGeometry x="630" y="688.75" width="90" height="37.5" as="geometry"/>
+                <mxCell id="139" value="Tần số cơ bản NHẤT" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-280" y="560" width="80" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

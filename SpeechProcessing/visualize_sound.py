@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import librosa
 
-def visualizeSoundv1(filename, figsize):
+def visualizeSoundv1(filename, figsize = (16,5)):
     wav_obj = wave.open(f=filename, mode="rb")
 
     # Get wave properties
@@ -27,11 +27,11 @@ def visualizeSoundv1(filename, figsize):
     plt.show()
 
 
-def visualizeSoundv2(filename, figsize):
+def visualizeSoundv2(filename, figsize=(16,5)):
     signal, sample_rate = librosa.load(filename)
     print("hi")
     plt.figure(figsize=figsize)
     plt.plot(signal)
     plt.show()
 
-# visualizeSoundv1("D:\\Machine Learning\\SelfPj\\Resource\\vo_hutao_draw_appear.wav")
+visualizeSoundv2("D:\\VoiceClone\\Resource\\RONALDO SIU.wav")   
