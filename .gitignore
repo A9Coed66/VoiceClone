@@ -113,6 +113,8 @@ ipython_config.py
 __pypackages__/
 input/
 OtherProject/
+Roadmap.drawio/
+Playground/
 
 # Celery stuff
 celerybeat-schedule
